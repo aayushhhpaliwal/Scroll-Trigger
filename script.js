@@ -27,6 +27,7 @@ once(document.documentElement, "touchstart", function (e) {
 /* Scroll Control! */
 
 gsap.registerPlugin(ScrollTrigger);
+// smoothness = smoothness || 1;
 
 let tl = gsap.timeline({
   defaults: { duration: 1 },
